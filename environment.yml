@@ -1,0 +1,24 @@
+name: MultiT2
+channels:
+  - conda-forge
+  - nvidia
+  - pytorch
+dependencies:
+  - conda-forge::python=3.8
+  - conda-forge::pip
+  - pytorch::pytorch=2.0.1
+  - pytorch::torchvision
+  - pytorch::torchaudio
+  - nvidia::cudatoolkit=11.1
+  - pip:
+      - pandas==1.3.4
+      - numpy==1.24.4
+      - transformers==4.41.2
+      - peft==0.11.1
+      - scikit-learn==1.0.1
+      - matplotlib==3.7.1
+      - rdkit==2024.3.2
+      - seaborn==0.13.2
+      - biopython==1.81
+      - tqdm==4.62.3
+      - mkl==2024.0
